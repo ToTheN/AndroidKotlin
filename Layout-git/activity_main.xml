@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/text"
+        android:text="Foodie App"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="120dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/edit1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/edit2"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape"
+        android:hint="Username"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:id="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password?"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/button"
+        android:text="SIGN IN"
+        android:textSize="17dp"
+        android:textColor="#03A9F4"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:id="@+id/text2"
+        android:layout_marginTop="20dp"
+        android:text="Don't have an account?"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:id="@+id/text3"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

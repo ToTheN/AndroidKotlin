@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/icecream" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/descrip" />
+
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:numStars="5"
+            android:rating="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="190dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:padding="5dp"
+            android:text="@string/dateTime" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="30dp"
+            android:padding="5dp"
+            android:text="Rs.180"
+            android:textColor="#D81616" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/icecream" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/descrip" />
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:numStars="5"
+            android:rating="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="190dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:padding="5dp"
+            android:text="@string/dateTime" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="30dp"
+            android:padding="5dp"
+            android:text="Rs.180"
+            android:textColor="#D81616" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="380dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/icecream" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/descrip" />
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:numStars="5"
+            android:rating="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="190dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:padding="5dp"
+            android:text="@string/dateTime" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="30dp"
+            android:padding="5dp"
+            android:text="Rs.180"
+            android:textColor="#D81616" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="560dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/icecream" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/descrip" />
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"
+            android:numStars="5"
+            android:rating="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="190dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:padding="5dp"
+            android:text="@string/dateTime" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="30dp"
+            android:padding="5dp"
+            android:text="Rs.180"
+            android:textColor="#D81616" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
